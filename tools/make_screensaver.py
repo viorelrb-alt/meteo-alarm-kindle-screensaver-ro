@@ -28,7 +28,7 @@ for t in lines:
     w=d.textlength(t,font=fo); x=(W-w)/2
     d.ellipse((x-24,y+9,x-12,y+21),fill=0x55)
     d.text((x,y),t,font=fo,fill=0); y+=38
-ctext(y+10,"github.com/viorelrb-alt/kindle-weather-clock-ro",f(22),0x55)
+ctext(y+10,"github.com/viorelrb-alt/meteo-alarm-kindle-ro",f(22),0x55)
 # bottom band
 by=H-118
 d.rectangle((0,by,W,H),fill=0xDD)

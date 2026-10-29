@@ -2,7 +2,7 @@
 
 A small KUAL extension for a jailbroken **Kindle Paperwhite 1** that turns off the "Special Offers" lock screen ads and shows a **Meteo Alarm Kindle** screen instead. It also keeps the Kindle's own clock on Romanian time, summer and winter. After one setup step it runs by itself at every start.
 
-It is the companion of [Meteo Alarm Kindle](https://github.com/viorelrb-alt/kindle-weather-clock-ro), a weather clock with MeteoAlarm warnings for the same Kindle.
+It is the companion of [Meteo Alarm Kindle](https://github.com/viorelrb-alt/meteo-alarm-kindle-ro), a weather clock with MeteoAlarm warnings for the same Kindle.
 
 <p>
   <img src="docs/images/kindle-lock-screen.jpg" width="32%" alt="The new lock screen on the Kindle">
