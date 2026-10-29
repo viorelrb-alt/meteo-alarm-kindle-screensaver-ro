@@ -1,0 +1,45 @@
+{
+	"items": [
+		{
+			"name": "Ecran de repaus și reclame",
+			"priority": 1,
+			"items": [
+				{
+					"name": "1. Verifică (scrie raport.txt)",
+					"priority": 1,
+					"action": "./bin/ecranrepaus.sh",
+					"params": "verifica",
+					"exitmenu": false
+				},
+				{
+					"name": "2. Elimină reclamele",
+					"priority": 2,
+					"action": "./bin/ecranrepaus.sh",
+					"params": "reclame",
+					"exitmenu": false
+				},
+				{
+					"name": "3. Pune ecranul Meteo Alarm Kindle",
+					"priority": 3,
+					"action": "./bin/ecranrepaus.sh",
+					"params": "ecran",
+					"exitmenu": false
+				},
+				{
+					"name": "4. Repară la fiecare pornire (reclame, ecran, oră)",
+					"priority": 4,
+					"action": "./bin/ecranrepaus.sh",
+					"params": "automat",
+					"exitmenu": false
+				},
+				{
+					"name": "Anulează tot (reclame și ecranul original)",
+					"priority": 5,
+					"action": "./bin/ecranrepaus.sh",
+					"params": "anuleaza",
+					"exitmenu": false
+				}
+			]
+		}
+	]
+}
