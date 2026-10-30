@@ -12,7 +12,15 @@ It is the companion of [Meteo Alarm Kindle](https://github.com/viorelrb-alt/mete
 
 *Left: the new lock screen on the real Kindle. Middle: the image itself. Right: the lock screen before.*
 
-**Version 1.3** · [Download the zip](download/MeteoAlarmKindle-screensaver-v1.3.zip?raw=1) · [Română](#în-limba-română)
+**Version 1.4** · [Download the zip](download/MeteoAlarmKindle-screensaver-v1.4.zip?raw=1) · [Română](#în-limba-română)
+
+## What is new in 1.4
+
+- The lock screen image shows Meteo Alarm Kindle **v2.062** in landscape, with the new Moon / Pressure / AQI boxes.
+- The feature list under the picture is updated: UV, humidity, Moon, pressure and air quality; 315 towns.
+- The GitHub address on the image is now `meteo-alarm-kindle-ro`.
+- A new `screensaver.png` is put in place by itself at the next start, once step 3 was run one time. Copy the folder over the old one and reboot (sometimes twice).
+- `tools/make_screensaver.py` also takes landscape screenshots (1024x758).
 
 ## What it does
 
@@ -65,6 +73,8 @@ Jailbreak learned from the [Oak Reef guide](https://oakreef.ie/bog/kindle-jailbr
 ## În limba română
 
 **Ecran de repaus** oprește reclamele de pe ecranul de blocare al unui Kindle Paperwhite 1 cu jailbreak și pune în locul lor un ecran Meteo Alarm Kindle. Ține și ceasul Kindle-ului pe ora României, de vară și de iarnă.
+
+Nou în 1.4: imaginea arată Meteo Alarm Kindle v2.062 în peisaj (Lună / Presiune / ICA), lista e actualizată, iar o imagine nouă se pune singură la următoarea pornire, dacă pasul 3 a fost rulat o dată.
 
 Instalare: copiezi folderul `extensions` din arhivă în rădăcina Kindle-ului. Apoi, din KUAL > „Ecran de repaus și reclame”, rulezi pașii 1–4 și repornești Kindle-ul. După pasul 4 totul rulează singur la fiecare pornire. „Anulează tot” pune totul la loc.
 

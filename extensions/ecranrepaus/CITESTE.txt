@@ -1,9 +1,15 @@
 Ecran de repaus (pentru Meteo Alarm Kindle)
 Kindle Paperwhite 1, firmware 5.6.x, cu jailbreak și KUAL.
 
-Versiunea 1.3. Pornire: KUAL > Ecran de repaus și reclame. După pasul 4 totul
+Versiunea 1.4. Pornire: KUAL > Ecran de repaus și reclame. După pasul 4 totul
 rulează singur la fiecare pornire. Poți ascunde intrarea din KUAL: scoate
 <menus> din config.xml și golește menu.json ("items": []).
+
+Nou în 1.4: imaginea arată ecranul Meteo Alarm Kindle v2.062 (peisaj, cu Luna, Presiune
+și ICA), lista e actualizată (UV, umiditate, Lună, presiune, calitatea aerului; 315
+localități) și adresa GitHub e meteo-alarm-kindle-ro. Dacă pasul 3 a fost rulat o dată,
+o imagine nouă (screensaver.png) se pune singură la următoarea pornire: copiezi folderul
+peste cel vechi și repornești Kindle-ul (uneori de 2 ori).
 
 1. Verifică: scrie raport.txt (nu schimbă nimic).
 2. Elimină reclamele: oprește reclamele Amazon și șterge reclamele descărcate.

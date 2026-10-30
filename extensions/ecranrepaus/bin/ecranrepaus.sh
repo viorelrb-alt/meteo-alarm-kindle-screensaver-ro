@@ -229,11 +229,25 @@ tz_report() {
 	find /var/local /var/tmp /mnt/us/extensions /mnt/us/developer -iname '*kual*' 2>/dev/null | head -10 >>"$LOG"
 }
 
+# 1.4: a new screensaver.png (copied over the extension) is put in place at the next boot,
+# without the hidden KUAL entry: only once the "ecran" step has been run (its backup exists)
+# and when the image differs from the first stock file.
+new_screen() {
+	[ -n "$(ls "$BAK/screensaver" 2>/dev/null)" ] || return 0
+	[ -f "$IMG" ] || return 0
+	first=$(ls "$SS_DIR"/*.png 2>/dev/null | head -n 1)
+	[ -n "$first" ] || return 0
+	[ "$(md5sum <"$IMG")" = "$(md5sum <"$first")" ] && return 0
+	say "imagine noua: $IMG difera de $first"
+	ecran
+}
+
 pornire() {
 	say "--- pornire $(date '+%Y-%m-%d %H:%M')"
 	block_ads
 	fix_tz
 	swap_blanket
+	new_screen
 	fix_java_tz
 	install_early_job
 	tz_report
